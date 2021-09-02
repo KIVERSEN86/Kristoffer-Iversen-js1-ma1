@@ -82,11 +82,9 @@ function createCats(cats) {
 
         htmlContainer += `<div>
         <h5>${cats[i].name}</h5>
-        <p>${ageMissing}</p>`;
+        <p>${ageMissing}</p></div>`;
 
     }
-
-
 
     return htmlContainer;
 }
